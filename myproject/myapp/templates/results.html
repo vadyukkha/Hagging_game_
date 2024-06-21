@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Table</title>
+    <style>
+        .data {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .data th, .data td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        .data th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Results Table</h1>
+    {{ table | safe }}
+</body>
+</html>
