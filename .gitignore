@@ -3,3 +3,5 @@ Users/
 venv/
 
 .DS_Store
+
+Game/src/game

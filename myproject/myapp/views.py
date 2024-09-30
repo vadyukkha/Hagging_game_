@@ -9,9 +9,9 @@ from django.core.files.storage import FileSystemStorage
 import asyncio
 
 async def run_game(game_path: str, folder_name: str):
-    if not os.path.exists("../Game/src/game"):
-        game_path = os.path.join("../Game/src", "game.cpp")
-        game_executable_path = os.path.join("../Game/src", "game")
+    if not os.path.exists("Game/src/game"):
+        game_path = os.path.join("Game/src", "game.cpp")
+        game_executable_path = os.path.join("Game/src", "game")
         compile_game_command = [
             "g++",
             "-o", game_executable_path,
@@ -35,7 +35,7 @@ async def run_game(game_path: str, folder_name: str):
 
         await asyncio.sleep(5) 
 
-        bd_file_path = f'../Game/bd/result.txt'
+        bd_file_path = f'Game/bd/result.txt'
 
         if os.path.exists(bd_file_path):
             return bd_file_path
@@ -54,7 +54,7 @@ def upload_file(request):
             cpp_file = request.FILES['cpp_file']
             folder_name = cpp_file.name.split('.')[0]
 
-            folder_path = os.path.join("../Game/Users", folder_name)
+            folder_path = os.path.join("Game/Users", folder_name)
             if os.path.exists(folder_path):
                 shutil.rmtree(folder_path)
 
@@ -63,7 +63,7 @@ def upload_file(request):
             file_name = fs.save(cpp_file.name, cpp_file)
             file_path = os.path.join(folder_path, file_name)
 
-            # game_cpp_path = os.path.join("../Game/src", "teamname.txt")
+            # game_cpp_path = os.path.join("Game/src", "teamname.txt")
             # with open(game_cpp_path, 'w') as game_file:
             #     game_file.write(f"{folder_name}")
 
@@ -79,7 +79,7 @@ def upload_file(request):
                 ]
                 subprocess.run(compile_command, check=True)
 
-                result_file_path = asyncio.run(run_game("../Game/src", folder_name))
+                result_file_path = asyncio.run(run_game("Game/src", folder_name))
                 if result_file_path:
                     return redirect('show_results')
                 else:
@@ -93,7 +93,7 @@ def upload_file(request):
     return render(request, 'upload.html', {'form': form})
 
 def show_results(request):
-    result_file_path = f'../Game/bd/result.txt'
+    result_file_path = f'Game/bd/result.txt'
     if os.path.exists(result_file_path):
         with open(result_file_path, 'r') as file:
             lines = file.readlines()
