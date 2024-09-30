@@ -9,6 +9,18 @@ from django.core.files.storage import FileSystemStorage
 import asyncio
 
 async def run_game(game_path: str, folder_name: str):
+    if not os.path.exists("../Game/src/game"):
+        game_path = os.path.join("../Game/src", "game.cpp")
+        game_executable_path = os.path.join("../Game/src", "game")
+        compile_game_command = [
+            "g++",
+            "-o", game_executable_path,
+            game_path,
+            "-ldl",
+            "-std=c++20"
+        ]
+        subprocess.run(compile_game_command, check=True)
+
     try:
         terminal_process = await asyncio.create_subprocess_shell(
             "/bin/bash", stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE
@@ -43,9 +55,10 @@ def upload_file(request):
             folder_name = cpp_file.name.split('.')[0]
 
             folder_path = os.path.join("../Game/Users", folder_name)
-            if not os.path.exists(folder_path):
-                os.makedirs(folder_path)
+            if os.path.exists(folder_path):
+                shutil.rmtree(folder_path)
 
+            os.makedirs(folder_path)
             fs = FileSystemStorage(location=folder_path)
             file_name = fs.save(cpp_file.name, cpp_file)
             file_path = os.path.join(folder_path, file_name)
@@ -65,17 +78,6 @@ def upload_file(request):
                     "-std=c++20"
                 ]
                 subprocess.run(compile_command, check=True)
-                
-                game_path = os.path.join("../Game/src", "game.cpp")
-                game_executable_path = os.path.join("../Game/src", "game")
-                compile_game_command = [
-                    "g++",
-                    "-o", game_executable_path,
-                    game_path,
-                    "-ldl",
-                    "-std=c++20"
-                ]
-                subprocess.run(compile_game_command, check=True)
 
                 result_file_path = asyncio.run(run_game("../Game/src", folder_name))
                 if result_file_path:

@@ -1,0 +1,252 @@
+Player ball_lover Wins: 24
+Player book_lover Wins: 172
+Draws: 0
+Total Player ball_lover Points: 546
+Total Player book_lover Points: 1414
+
+Player ball_lover Wins: 24
+Player hat_lover Wins: 172
+Draws: 0
+Total Player ball_lover Points: 546
+Total Player hat_lover Points: 1414
+
+Player ball_lover Wins: 4
+Player saved Wins: 136
+Draws: 56
+Total Player ball_lover Points: 390
+Total Player saved Points: 1232
+
+Player ball_lover Wins: 24
+Player svd Wins: 172
+Draws: 0
+Total Player ball_lover Points: 546
+Total Player svd Points: 1414
+
+Player ball_lover Wins: 0
+Player top2 Wins: 0
+Draws: 196
+Total Player ball_lover Points: 0
+Total Player top2 Points: 0
+
+Player ball_lover Wins: 20
+Player yandexlavka666 Wins: 36
+Draws: 140
+Total Player ball_lover Points: 156
+Total Player yandexlavka666 Points: 182
+
+Player book_lover Wins: 34
+Player ball_lover Wins: 136
+Draws: 26
+Total Player book_lover Points: 672
+Total Player ball_lover Points: 1288
+
+Player book_lover Wins: 34
+Player hat_lover Wins: 136
+Draws: 26
+Total Player book_lover Points: 672
+Total Player hat_lover Points: 1288
+
+Player book_lover Wins: 19
+Player saved Wins: 140
+Draws: 37
+Total Player book_lover Points: 624
+Total Player saved Points: 1344
+
+Player book_lover Wins: 22
+Player svd Wins: 154
+Draws: 20
+Total Player book_lover Points: 732
+Total Player svd Points: 1484
+
+Player book_lover Wins: 172
+Player top2 Wins: 24
+Draws: 0
+Total Player book_lover Points: 1414
+Total Player top2 Points: 546
+
+Player book_lover Wins: 140
+Player yandexlavka666 Wins: 30
+Draws: 26
+Total Player book_lover Points: 1092
+Total Player yandexlavka666 Points: 602
+
+Player hat_lover Wins: 48
+Player ball_lover Wins: 133
+Draws: 15
+Total Player hat_lover Points: 742
+Total Player ball_lover Points: 1218
+
+Player hat_lover Wins: 48
+Player book_lover Wins: 133
+Draws: 15
+Total Player hat_lover Points: 742
+Total Player book_lover Points: 1218
+
+Player hat_lover Wins: 12
+Player saved Wins: 107
+Draws: 77
+Total Player hat_lover Points: 477
+Total Player saved Points: 1022
+
+Player hat_lover Wins: 53
+Player svd Wins: 114
+Draws: 29
+Total Player hat_lover Points: 839
+Total Player svd Points: 1218
+
+Player hat_lover Wins: 172
+Player top2 Wins: 24
+Draws: 0
+Total Player hat_lover Points: 1414
+Total Player top2 Points: 546
+
+Player hat_lover Wins: 125
+Player yandexlavka666 Wins: 42
+Draws: 29
+Total Player hat_lover Points: 1075
+Total Player yandexlavka666 Points: 784
+
+Player saved Wins: 115
+Player ball_lover Wins: 13
+Draws: 68
+Total Player saved Points: 1148
+Total Player ball_lover Points: 616
+
+Player saved Wins: 128
+Player book_lover Wins: 31
+Draws: 37
+Total Player saved Points: 1316
+Total Player book_lover Points: 823
+
+Player saved Wins: 90
+Player hat_lover Wins: 22
+Draws: 84
+Total Player saved Points: 980
+Total Player hat_lover Points: 640
+
+Player saved Wins: 81
+Player svd Wins: 40
+Draws: 75
+Total Player saved Points: 1143
+Total Player svd Points: 973
+
+Player saved Wins: 175
+Player top2 Wins: 4
+Draws: 17
+Total Player saved Points: 1484
+Total Player top2 Points: 468
+
+Player saved Wins: 173
+Player yandexlavka666 Wins: 0
+Draws: 23
+Total Player saved Points: 1422
+Total Player yandexlavka666 Points: 527
+
+Player svd Wins: 172
+Player ball_lover Wins: 24
+Draws: 0
+Total Player svd Points: 1414
+Total Player ball_lover Points: 546
+
+Player svd Wins: 137
+Player book_lover Wins: 38
+Draws: 21
+Total Player svd Points: 1372
+Total Player book_lover Points: 922
+
+Player svd Wins: 108
+Player hat_lover Wins: 59
+Draws: 29
+Total Player svd Points: 1190
+Total Player hat_lover Points: 865
+
+Player svd Wins: 46
+Player saved Wins: 97
+Draws: 53
+Total Player svd Points: 1046
+Total Player saved Points: 1290
+
+Player svd Wins: 167
+Player top2 Wins: 28
+Draws: 1
+Total Player svd Points: 1414
+Total Player top2 Points: 570
+
+Player svd Wins: 170
+Player yandexlavka666 Wins: 4
+Draws: 22
+Total Player svd Points: 1309
+Total Player yandexlavka666 Points: 330
+
+Player top2 Wins: 0
+Player ball_lover Wins: 0
+Draws: 196
+Total Player top2 Points: 0
+Total Player ball_lover Points: 0
+
+Player top2 Wins: 24
+Player book_lover Wins: 172
+Draws: 0
+Total Player top2 Points: 546
+Total Player book_lover Points: 1414
+
+Player top2 Wins: 24
+Player hat_lover Wins: 172
+Draws: 0
+Total Player top2 Points: 546
+Total Player hat_lover Points: 1414
+
+Player top2 Wins: 4
+Player saved Wins: 189
+Draws: 3
+Total Player top2 Points: 481
+Total Player saved Points: 1582
+
+Player top2 Wins: 24
+Player svd Wins: 172
+Draws: 0
+Total Player top2 Points: 546
+Total Player svd Points: 1414
+
+Player top2 Wins: 20
+Player yandexlavka666 Wins: 36
+Draws: 140
+Total Player top2 Points: 156
+Total Player yandexlavka666 Points: 182
+
+Player yandexlavka666 Wins: 36
+Player ball_lover Wins: 20
+Draws: 140
+Total Player yandexlavka666 Points: 182
+Total Player ball_lover Points: 156
+
+Player yandexlavka666 Wins: 0
+Player book_lover Wins: 195
+Draws: 1
+Total Player yandexlavka666 Points: 518
+Total Player book_lover Points: 1442
+
+Player yandexlavka666 Wins: 0
+Player hat_lover Wins: 195
+Draws: 1
+Total Player yandexlavka666 Points: 518
+Total Player hat_lover Points: 1442
+
+Player yandexlavka666 Wins: 0
+Player saved Wins: 181
+Draws: 15
+Total Player yandexlavka666 Points: 475
+Total Player saved Points: 1422
+
+Player yandexlavka666 Wins: 3
+Player svd Wins: 164
+Draws: 29
+Total Player yandexlavka666 Points: 365
+Total Player svd Points: 1499
+
+Player yandexlavka666 Wins: 36
+Player top2 Wins: 20
+Draws: 140
+Total Player yandexlavka666 Points: 182
+Total Player top2 Points: 156
+
